@@ -13,7 +13,7 @@ git submodule update --init --recursive
 mkdir build
 cd build
 cmake -DARCH=default ..
-cmake cmake -DARCH=default ..
+cmake --build . --target recovery
 ```
 
 ### Config format
